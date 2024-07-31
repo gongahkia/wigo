@@ -75,8 +75,9 @@
     * cannot capture other pieces conventionally
     * 1-time use ability
         1. Calls a meteor that strikes its current square and the surrounding 25 squares 
-        2. Any pieces caught withi that blast radius are captured
+        2. Any pieces caught with that blast radius are captured
         3. "This Is Fine" dog dies immediately after
+        4. Ability cannot checkmate the enemy King
 10. Weeping Angel
     * moves and captures like a Bishop
     * passive ability
@@ -102,92 +103,100 @@
     * passive ability
         1. Can move as any enemy piece that the opponent has not yet moved
         2. After all enemy pieces have been moved, Opportunist moves and captures like a knight
-
-> continue adding from here
-
-23. hypnotist
+16. Hypnotist
     * moves like a knight
-    * cannot capture any pieces
-    * enemy pieces in the surrounding 8 squares can be moved (according to their movesets) as if they were your own
-24. the Avenger
-    * gains the movement of the most recently captured friendly piece
-25. Sumo wrestler
+    * cannot capture other pieces
+    * passive ability
+        1. Can move enemy pieces in the surrounding 8 squares as if they are your own *(according to their movesets)*
+17. Avenger
+    * moves and captures like a Pawn
+    * passive ability
+        1. Moves and captures like the most recently captured friendly piece
+18. Orphan
+    * moves and captures like a Pawn
+    * passive ability
+        1. Moves and captures like any enemy piece that can currently capture the Orphan *(in the next turn)*
+19. BFF
+    * moves and captures like a Pawn
+    * passive ability
+        1. moves and captures like any friendly piece that is currently safeguarding it *(in the current move)*
+20. Alfred Hitchcock
+    * moves like a Bishop 
+    * cannot capture other pieces
+    * passive ability 
+        1. Cannot move until X amount of turns have passed
+        2. Player is awarded X coins during the drafting phase if they choose to buy Alfred Hitchcock
+        3. X has a maximum value of 20
+21. Bishop Kicker
+    * moves and captures like a King
+    * passive ability
+        1. When next to a Bishop, the Bishop Kicker can spend 1 turn moving that Bishop to an adjacent square 
+22. Communist
+    * moves and captures like a Bishop
+    * 1-time use ability
+        1. Instantly kill the Communist for the cause
+        2. For the next 3 turns all pieces besides the King move like a Pawn 
+        3. This is because all pieces are equal
+23. Jurong West Block 498
+    * moves like a Rook
+    * cannot capture other pieces
+    * 1-time use ability
+        1. With both player's consent, end the game of WIGOC and decide the winner through a fist fight
+        2. If not, both players play 1 round of [chopsticks](https://en.wikipedia.org/wiki/Chopsticks_(hand_game)), the winner is awarded 1 Bishop Kicker
+24. Sumo Wrestler
     * moves up to two squares orthogonally or diagonally
-    * cannot capture
-    * pushes enemy pieces 1 square in the direction they're moving. 
-    * if enemy piece is pushed off the edge of the board, it is captured 
-26. arsonist
-    * moves like a knight
-    * can also use its movement turn to throw an incendiary into an unoccupied square with the range of a rook
-    * lit square set on fire and burns for 3 turns 
-    * enemy pieces that passes through or lands on that square is captured
-    * cannot throw its incendiary if there is already a burning square created by any of your arsonists
-27. orphan // shit the bed 
-    * moves like any opponent piece that can currently capture it (in the next turn)
-    * otherwise moves like a pawn
-28. BFF
-    * moves like any friendly piece that is currently safeguarding it
-    * otherwise moves like a pawn
-29. hitchcock
-    * cannot move until X amount of turns have passed
-    * player awarded X coins the larger the number chosen
-    * once playable, moves like a bishop but with limited range of 1 square
-30. bishop kicker
-    * moves like a king
-    * when next to a bishop, can choose to spend turn moving that bishop to an adjacent square
-31. communist
-    * moves like a bishop
-    * instantly kill your communist (they die for the cause)
-    * for the next two turns all pieces besides the king move like a pawn 
-    * this is because all pieces are equal
-32. hougang block 14
-    * literal hdb block
-    * when this piece is played, ONE of the following 2 things can happen
-      * if both players agree, the game is terminated and the winner is decided by a fist fight
-      * else, both players play 1 round of chopsticks, the winner is awarded 1 bishop kicker
+    * cannot capture other pieces conventionally
+    * passive ability
+        1. Push enemy pieces 1 square in the direction they're moving
+        2. If the Sumo Wrestler pushes an enemy piece off the edge of the board, that piece is captured
+25. Count Olaf
+    * moves like a Knight
+    * cannot capture other pieces conventionally
+    * ability activates every 5 turns
+        1. Throw an incendiary into an unoccupied square with the range of a Rook
+        2. Squares set on fire burn for 3 turns 
+        3. Enemy pieces that pass through or land on a burning square are captured
+        4. Count Olaf cannot throw their incendiary if there is already a burning square on the board set by any friendly Count Olafs
+26. Royal Guard
+    * passive ability
+        1. Cannot be moved at all once it is placed down
+        2. Has a 'health' of 2 captures *(opponent's capture attempt will be reversed)*
+27. Spider
+    * moves like a Pawn
+    * cannot capture other pieces
+    * passive ability 
+        1. Prevents all surrounding friendly and enemy pieces in the surrounding 8 squares from moving 
+28. Covid-19
+    * moves and captures as pictured [here](https://www.reddit.com/r/chessvariants/comments/193o4de/new_chess_piece_idea_the_dungeon_crawler/)
+29. Alligator
+    * moves and captures as pictured [here](https://www.reddit.com/r/chessvariants/comments/1bgj3p7/new_chess_piece_idea_the_smiler/)
+30. Hayao Miyazaki
+    * moves like a King
+    * cannot capture other pieces
+    * passive ability
+        1. When Hayao Miyazaki has an orthogonal or diagonal sightline of your King, your King **cannot** be killed by 1 single checkmate
+        2. Automatically capture the piece checkmating your King 
+        3. Hayao Miyazaki dies immediately
+31. Kumar (the Singaporean comedian)
+    * moves like a King
+    * cannot capture other pieces
+    * passive ability
+        1. Activates when Kumar is putting the enemy King in check
+        2. Player playing Kumar tells the opponent a joke 
+        3. If the opponent laughs, the check becomes an instant checkmate and they lose the WIGOC game
+        4. If the opponent doesn't laugh, the opponent then gets to tell the player a joke
+        5. If the player laughs in response, its an instant death and they lose the WIGOC game 
+        6. If the player doesn't laugh in response, nothing happens
+        7. Kumar immediately dies
+32. Stockholm Syndrome
+    * moves like a Pawn
+    * cannot capture other pieces
+    * passive ability
+        1. When this piece is under immediate threat of capture, this  ability activates
+        2. If Stockholm Syndrome can stay within threat of being captured but evade actual capture for 5 turns, the last piece threatening it is captured automatically
 
-8. zarya from overwatch
-    * can place a bubble on any piece within her direct line of sight (of a rook)
-    * bubble tanks 1 fatal hit and prevents that piece from being eaten in that move
-    * effectively invalidates opponent's last move
-    * has 3 uses of her ability, recharges 1 more use when she reaches the opponent's home row and promotes to cutting zarya (she is now cutting)
-12. mushroom
-    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/18yw0pn/new_chest_piece_idea_the_mushroom/
-13. the gambler
-    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/192tjbs/fairy_piece_idea_gambler_2nd_draft/
-19. archer
-    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/7w77oy/new_chess_piece_idea_the_archer_details_in/
-    * does not move when it captures
-    * captures with a limited range
-20. the royal guard
-    * piece that can't move at all once placed down
-    * has a health of 2 and once removed from board placed in graveyard
-21. covid-19
-    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/193o4de/new_chess_piece_idea_the_dungeon_crawler/
-22. alligator
-    * shameless ripoff of https://www.reddit.com/r/chessvariants/comments/1bgj3p7/new_chess_piece_idea_the_smiler/
+> add further 
 
-33. spider
-    * passive ability that prevents all surrounding 8 pieces from moving 
-    * cannot capture pieces
-    * moves like a pawn
-34. hayao miyazaki
-    * when hayao miyazaki has ortogonal or diagonal sightlines of your king, your king cannot be killed by one checkmate
-    * the piece checkmating your king is automatically captured and hayao miyazaki is discarded to the graveyard
-35. kumar
-    * like the Singaporean comedian
-    * moves like a king
-    * when putting the enemy king in check, automatically activate the following ability
-      * tell a joke to make the opponent laugh
-        * if they laugh, its an instant checkmate
-        * if they don't laugh, the opponent tells the original player a joke
-        * if they laugh, its an instant death
-        * if both don't laugh, kumar instantly dies and goes to the graveyard
-36. stockholm syndrome
-    * hunter becomes the hunted
-    * once this piece is under THREAT of capture, ability activates
-    * if it can stay within threat of being captured but evade capture for 5 moves, it kills the last piece that is threatening it
-    * moves like a pawn
 37. Amazon Prime
     * moves like a queen
     * can only move and capture when it is to a sqare on the edge of the board, otherwise cannot move at all
@@ -201,6 +210,7 @@
     * it is 1 move to mount and 1 move to dismount the downtown line
     * the downtown line itself is invulnerable to any attacks
     * pieces cannot be attacked while mounting or dismounting the downtown line since that is a war crime
+    * the King cannot ride the downtown line because mrt is for lower SES
 40. spy
     * moves like a knight
     * cannot capture
@@ -208,28 +218,6 @@
 41. jailer
     * moves and captures like a queen up to X number of squars, where X is equal to the number of captured enemy pawns
     * can't move at all at the start
-42. aoi todo
-    * boogie woogie
-    * moves like a knight, captures like a pawn
-    * special ability activates every 3 turns
-      * transports one friendly piece to it's previous location 3 turns ago
-9. gojo zatoru
-    * freezes time
-    * functionally moves like a king
-    * can choose to move this piece two turns and skip the opponnents next turn
-    * ability available every 20 turns
-5. zuguru geto
-    * consume monster
-    * functionally moves like a king
-    * choose ONE of the 2 abilities below every 20 turns
-      * finds a piece from the graveyard for FREE and brings it back to their hand
-      * best of three scissors paper stone with the other player, if win, gets a piece from the otehr player's unplayed hand and brings it to their hand
-6. zhoko ieri
-    * reverse cursed technique
-    * can reverse the side of any piece on either team for 5 moves, after which that reversed piece reverts to its original side
-    * can use ability every 10 turns
-    * ability's area of effect is the surrounding 9 squares
-    * otherwise functionally just a pawn
 43. redditor
     *  While all the other pieces go out and take part in the game, this piece studies the blade. If the opponent's king is in a position where there is an empty space directly behind it, you can immediately teleport this piece to that space and place them in check. 
 44. the lawyer
@@ -253,17 +241,56 @@
     * instead of moving, can choose to place an egg on any unoccupied square next to the ant outside of enemy home row 
     * eggs canot move
     * if an egg isn't captured in 3 turns, it promotes to a pawn
-48. cheese touch
+48. Astin (transmissible spongiform encypholytus)
     * moves like a queen 
     * cannot capture conventionally
     * ability activates every 3 turns
       * captures by marking any piece within the queen's capture zone 
       * marked pieces are captured after 5 turns 
+
 49. victim olympics
     * a.k.a the scapegoat
     * moves like a king
     * cannot capture
     * if the opponent can capture the scapegoat, they MUST capture it
+
+
+8. zarya from overwatch
+    * can place a bubble on any piece within her direct line of sight (of a rook)
+    * bubble tanks 1 fatal hit and prevents that piece from being eaten in that move
+    * effectively invalidates opponent's last move
+    * has 3 uses of her ability, recharges 1 more use when she reaches the opponent's home row and promotes to cutting zarya (she is now cutting)
+12. mushroom
+    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/18yw0pn/new_chest_piece_idea_the_mushroom/
+13. the gambler
+    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/192tjbs/fairy_piece_idea_gambler_2nd_draft/
+19. archer
+    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/7w77oy/new_chess_piece_idea_the_archer_details_in/
+    * does not move when it captures
+    * captures with a limited range
+
+42. aoi todo
+    * boogie woogie
+    * moves like a knight, captures like a pawn
+    * special ability activates every 3 turns
+      * transports one friendly piece to it's previous location 3 turns ago
+9. gojo zatoru
+    * freezes time
+    * functionally moves like a king
+    * can choose to move this piece two turns and skip the opponnents next turn
+    * ability available every 20 turns
+5. zuguru geto
+    * consume monster
+    * functionally moves like a king
+    * choose ONE of the 2 abilities below every 20 turns
+      * finds a piece from the graveyard for FREE and brings it back to their hand
+      * best of three scissors paper stone with the other player, if win, gets a piece from the otehr player's unplayed hand and brings it to their hand
+6. zhoko ieri
+    * reverse cursed technique
+    * can reverse the side of any piece on either team for 5 moves, after which that reversed piece reverts to its original side
+    * can use ability every 10 turns
+    * ability's area of effect is the surrounding 9 squares
+    * otherwise functionally just a pawn
 50. gege akutami
     * moves like a king
     * when your king is mated, you can switch the position of gege akutami and the king
@@ -274,3 +301,9 @@
 16. shogi silver general
     * basically moves like a shogi silver general 
     * which is like this https://shogi.fandom.com/wiki/Silver_General
+
+53. Punggol Block 131A
+    * moves
+    * passive ability
+        1. WIGOC becomes chinese chess for 5 turns
+        2. 
