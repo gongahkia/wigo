@@ -1,8 +1,6 @@
 # `WIGOC` (a.k.a What Is Going On Chess)
 
-A chess variant.  
-
-Spiritual successor to [r/AnarchyChess](https://www.reddit.com/r/AnarchyChess/wiki/index/).
+A chess variant that is the spiritual successor to [r/AnarchyChess](https://www.reddit.com/r/AnarchyChess/wiki/index/).
 
 ## Usage
 
