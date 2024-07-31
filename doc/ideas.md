@@ -1,9 +1,9 @@
 > [!NOTE]
 > FOLLOW UP ACTIONS
 > 
-> 1. get the base normal chessboard rendering in svelte with 2 player support
-> 2. confirm piece ideas, send to nichole and specify required filetype (probably png i think)
-> 3. decide cost of each piece
+> 1. Get the base normal chessboard rendering in Svelte with 2 player support
+> 2. Decide cost of each piece
+> 3. Add basic wiki page for WIGOC
 
 # Ideas
 
@@ -194,116 +194,125 @@
     * passive ability
         1. When this piece is under immediate threat of capture, this  ability activates
         2. If Stockholm Syndrome can stay within threat of being captured but evade actual capture for 5 turns, the last piece threatening it is captured automatically
-
-> add further 
-
-37. Amazon Prime
-    * moves like a queen
-    * can only move and capture when it is to a sqare on the edge of the board, otherwise cannot move at all
-38. Suicide bomber
-    * looks like a pawn
-    * when captured, it takes out the piece that captured it
-39. downtown line
-    * piece that can only move up and down a row square after it is first placed (imagine a rook with movement limited to either horizontal or vertical)
-      * horizontal or vertical is determined by the player when DTL is first moved
-    * a max of 2 pieces can BOARD the downtown line at any given time
-    * it is 1 move to mount and 1 move to dismount the downtown line
-    * the downtown line itself is invulnerable to any attacks
-    * pieces cannot be attacked while mounting or dismounting the downtown line since that is a war crime
-    * the King cannot ride the downtown line because mrt is for lower SES
-40. spy
-    * moves like a knight
-    * cannot capture
-    * can sacrifice this piece and replace it with any other piece you own
-41. jailer
-    * moves and captures like a queen up to X number of squars, where X is equal to the number of captured enemy pawns
-    * can't move at all at the start
-43. redditor
-    *  While all the other pieces go out and take part in the game, this piece studies the blade. If the opponent's king is in a position where there is an empty space directly behind it, you can immediately teleport this piece to that space and place them in check. 
-44. the lawyer
-    * moves like a bishop but 1 square only
-    * a just say no // uno reverse card
-    * this piece can dispute any move made by your opponent and have them undo the move
-    * it can only use this power 5 times per game
-    * only your opponent's other Laywer piece can remove your lawyer from the board
-45. sniper from switzerland
-    * moves like a king, captures like an archer
-    * initially only able to capture pieces like a rook
-    * after killing 5 pieces, it makes a tower out of the bodies of the dead and can capture pieces like a rook and bishop
-    * after killing 10 pieces, it can now deliver piercing shots that capture 2 pieces if they are lined up diagonally or ortogonally (see above)
-    * cannot checkmate the king because he is swiss
-46. russian hacker
-    * moves like a pawn
-    * every 3 turns it can hack any friendly or enemy rooks in the same row or column (no direct line of sight needed)
-    * those rooks become bishops for 5 turns
-47. ant
-    * moves like a king
-    * instead of moving, can choose to place an egg on any unoccupied square next to the ant outside of enemy home row 
-    * eggs canot move
-    * if an egg isn't captured in 3 turns, it promotes to a pawn
-48. Astin (transmissible spongiform encypholytus)
-    * moves like a queen 
-    * cannot capture conventionally
-    * ability activates every 3 turns
-      * captures by marking any piece within the queen's capture zone 
-      * marked pieces are captured after 5 turns 
-
-49. victim olympics
-    * a.k.a the scapegoat
-    * moves like a king
-    * cannot capture
-    * if the opponent can capture the scapegoat, they MUST capture it
-
-
-8. zarya from overwatch
-    * can place a bubble on any piece within her direct line of sight (of a rook)
-    * bubble tanks 1 fatal hit and prevents that piece from being eaten in that move
-    * effectively invalidates opponent's last move
-    * has 3 uses of her ability, recharges 1 more use when she reaches the opponent's home row and promotes to cutting zarya (she is now cutting)
-12. mushroom
-    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/18yw0pn/new_chest_piece_idea_the_mushroom/
-13. the gambler
-    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/192tjbs/fairy_piece_idea_gambler_2nd_draft/
-19. archer
-    * shameless ripoff from https://www.reddit.com/r/chessvariants/comments/7w77oy/new_chess_piece_idea_the_archer_details_in/
-    * does not move when it captures
-    * captures with a limited range
-
-42. aoi todo
-    * boogie woogie
-    * moves like a knight, captures like a pawn
-    * special ability activates every 3 turns
-      * transports one friendly piece to it's previous location 3 turns ago
-9. gojo zatoru
-    * freezes time
-    * functionally moves like a king
-    * can choose to move this piece two turns and skip the opponnents next turn
-    * ability available every 20 turns
-5. zuguru geto
-    * consume monster
-    * functionally moves like a king
-    * choose ONE of the 2 abilities below every 20 turns
-      * finds a piece from the graveyard for FREE and brings it back to their hand
-      * best of three scissors paper stone with the other player, if win, gets a piece from the otehr player's unplayed hand and brings it to their hand
-6. zhoko ieri
-    * reverse cursed technique
-    * can reverse the side of any piece on either team for 5 moves, after which that reversed piece reverts to its original side
-    * can use ability every 10 turns
-    * ability's area of effect is the surrounding 9 squares
-    * otherwise functionally just a pawn
-50. gege akutami
-    * moves like a king
-    * when your king is mated, you can switch the position of gege akutami and the king
-    * you have plot armour
-15. shogi gold general
-    * basically moves like a shogi gold general 
-    * which is like this https://shogi.fandom.com/wiki/Gold_General
-16. shogi silver general
-    * basically moves like a shogi silver general 
-    * which is like this https://shogi.fandom.com/wiki/Silver_General
-
-53. Punggol Block 131A
-    * moves
+33. Amazon Prime
     * passive ability
-        1. WIGOC becomes chinese chess for 5 turns
-        2. 
+        1. Can only move and capture when its destination square is a square on the edge of the board
+        2. Moves and captures like a Queen
+34. Suicide Bomber
+    * moves and captures like a Pawn
+    * 1-time use ability
+        1. When captured, Suicide Bomber captures the piece that captured it
+35. Downtown Line
+    * moves like a Rook but along a single axis *(either horizontal or vertical)*
+    * cannot capture other pieces
+    * passive ability
+        1. Limited movement on the horizontal or vertical axis is determined by the player when Downtown Line is first moved
+        2. A maximum of 2 friendly pieces can board the Downtown Line at any given time.
+        3. It counts as 1 move for each piece to board the Downtown Line and 1 move for each piece to disembark the Downtown Line
+        4. Downtown Line is **invulnerable** to any attacks
+        5. Pieces riding the Downtown Line cannot be attacked, including during boarding or disembarking the Downtown Line *(since that is a war crime)*
+        6. The King cannot ride the Downtown Line because the MRT is for lower-SES pieces
+36. Spy
+    * moves like a Knight
+    * cannot capture other pieces
+    * 1-time use ability
+        1. Replace Spy with any other alive or dead friendly piece by removing Spy's disguise
+        2. Spy immediately dies
+37. Jailer
+    * passive ability
+        1. Moves and captures like a Queen up to X number of squars, where X is equal to the number of captured enemy Pawns
+        2. This means the Jailer can't move at all at the start
+38. Lawyer
+    * moves like a Bishop with range limited to 1 square
+    * cannot capture other pieces conventionally
+    * 5-time use ability
+        1. Undo any move made by the opponent by disputing that move
+        2. The opponent can dispute your dispute *(so you could burn all 5 disputes at one go)*
+        3. Only an enemy Lawyer can capture your Lawyer
+39. Sniper from Switzerland
+    * moves like a King
+    * passive ability
+        1. Sniper from Switzerland's capture changes with its number of confirmed kills of other pieces
+        2. 0-5 kills: Captures like an [archer](https://www.reddit.com/r/chessvariants/comments/7w77oy/new_chess_piece_idea_the_archer_details_in/) with the range of a Rook *(does not move when it captures)*
+        2. 5-10 kills: Captures like an [archer](https://www.reddit.com/r/chessvariants/comments/7w77oy/new_chess_piece_idea_the_archer_details_in/) with the range of a Rook and a Bishop *(does not move when it captures)*
+        3. 10-more kills: Captures like an [archer](https://www.reddit.com/r/chessvariants/comments/7w77oy/new_chess_piece_idea_the_archer_details_in/) with the range of a Rook and a Bishop *(does not move when it captures)* **and** can deliver a piercing shot that captures 2 adjacent pieces *(if they are lined up orthogonally or diagonally)*
+        4. Sniper cannot be used to checkmate the King since the Sniper is Swiss and values neutrality
+40. Russian Hacker
+    * moves like a pawn
+    * cannot capture other pieces
+    * ability activates every 3 turns
+        1. Hack any friendly or enemy Rook in the same row or column *(no direct line of sight required)*
+        2. Hacked Rooks become Bishops for 5 turns
+41. Pikmin
+    * moves like a King
+    * cannot capture other pieces 
+    * ability activates every 5 turns
+        1. Place a Prawn Egg on any unoccupied square adjacent to the Pikmin 
+        2. Prawn Eggs cannot be placed on the enemy's home row 
+        3. Prawn Eggs cannot move
+        4. If a Prawn Egg isn't captured in 3 turns, it hatches and promotes to a Prawn *(Pawn)*
+42. Victim Olympics
+    * moves like a King
+    * cannot capture other pieces
+    * passive ability
+        1. If the opponent can capture the Victim Olympics, they **must** capture it
+43. Mercutio 
+    * moves like a Queen 
+    * cannot capture other pieces conventionally
+    * 1-time use ability
+        1. Mark a piece within Mercutio's capture zone
+        2. Marked pieces are captured after 5 turns
+        3. If the enemy's King is within the 8 surrounding squares when a marked piece is captured, the King is marked and will be automatically checkmated in 20 turns
+        4. The mark on a King can be broken if the Mercutio who placed it is captured
+44. Zarya (from the hit game Overwatch)
+    * moves like a Bishop
+    * cannot capture other pieces
+    * 3-time use ability
+        1. Place a bubble on any piece within Zarya's direct line of sight similar to a Rook
+        2. Bubbled pieces have a 'health' of 2 captures *(opponent's capture attempt will be reversed)*
+        3. Zarya recharges 1 more use of her bubble ability when she reaches the opponent's home row 
+45. Gege Akutami
+    * moves like a King
+    * cannot capture other pieces
+    * passive ability
+        1. When your King is placed in checkmate, switch the positions of your King with the enemy King
+46. Aoi Todo
+    * moves like a Knight
+    * captures like a Pawn
+    * ability activates every 3 turns
+        1. Aoi Todo and one friendly piece swap locations via Boogie-woogie
+        2. Boogie-woogie does not work on the King
+47. Gojo Satoru
+    * moves like a King
+    * captures like a Bishop
+    * ability activates every 20 turns
+        1. Get 2 extra turns to be played immediately *(not including the turn used to activate Gojo's ability)*
+        2. Cannot be used to checkmate the enemy King
+48. Suguru Geto
+    * moves like a King
+    * captures like a Rook
+    * ability activates every 20 turns
+        1. Choose a dead piece from the graveyard, enemy or friendly, by consuming it 
+        2. Place that piece anywhere on the board
+        3. The revived piece cannot be used to immediately checkmate the enemy King
+49. Shoko Ieiri
+    * moves and captures like a King
+    * ability activates every 20 turns
+        1. Reverse the side of a piece on either team for 10 turns
+        2. After the 10 turns passes, that piece reverts to its original side
+        3. The enemy King can't have their side reversed *(for obvious reasons)*
+50. Father who bet on Germany
+    * capture like a King
+    * passive ability
+        1. Every move, roll 2 dice to determine Father who bet on Germany's next move
+        2. 2-4: move 1 square orthogonally 
+        3. 7: move 1 square diagonally **or** *double-or-nothing*
+            * double-or-nothing: roll 2 dice again
+                1. even number: Father who bet on Germany dies immediately and goes to counselling
+                2. odd number: move like a Queen **or** *triple-or-nothing*
+                    * triple-or-nothing: roll 3 dice now
+                        1. anything else: Father who bet on Germany and 1 other piece dies immediately and goes to counselling
+                        2. multiple of 3: move like a Queen **and** bring 1 friendly piece from the graveyard back to life, placing it down on the board in the same turn
+        4. 5-6 **or** 8-9: move 1 square in any direction
+        5. 10-11: move up to 2 squares in any direction
+        6. 12: move up to 2 squares in any direction **or** move like a Knight
