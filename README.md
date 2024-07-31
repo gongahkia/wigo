@@ -2,10 +2,6 @@
 
 A chess variant.
 
-## Usage
-
-> to add here
-
 ## References
 
 * [r/AnarchyChess](https://www.reddit.com/r/AnarchyChess/wiki/index/).
