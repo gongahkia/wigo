@@ -1,4 +1,4 @@
-# `WIGO` (a.k.a What Is Going On?)
+# `WIGOC` (a.k.a What Is Going On Chess)
 
 A chess variant.  
 
