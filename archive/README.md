@@ -2,7 +2,7 @@
 
 ## [Unused ideas](unused.md)
 
-## [WIGOC in the Web](webPrototpe)
+## [WIGOC in the Web](webPrototype)
 
 * using Svelte as a frontend
 
