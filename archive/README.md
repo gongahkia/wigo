@@ -1,1 +1,1 @@
-# For archived code
+# For archival purposes
