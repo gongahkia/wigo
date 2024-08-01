@@ -4,6 +4,6 @@
 
 ## [WIGOC in the Web](webPrototype)
 
-* using Svelte as a frontend
+* frontend rendered with Svelte
 
 ![](asset/screenshot1.png)
