@@ -1,9 +1,12 @@
 <script>
+
     import Board from './lib/Board.svelte';
+
 </script>
 
 <main>
-    <Board><Board/>
+    <p>For the <i>chess-inept.</i></p>
+    <Board></Board>
 </main>
 
 <style>

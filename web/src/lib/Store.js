@@ -1,16 +1,37 @@
 import { writable } from 'svelte/store';
 
+/*
+* ----- svlete/store -----
+    * writable store: client-side local storage 
+        * holds a value, allows READ, UPDATE and SUBSCRIBE to that value
+        * used to 
+            * managing state in Svelte apps
+            * sharing state between components
+    * functions 
+        * writable(): CREATES a writable store with the intialised value
+        * set(): SETS the writable store's value
+        * update(): UPDATES the store's value
+        * subscribe(): SUBSCRIBES to the store, reading the stored value and calling the specified callback function whenever the stored value changes
+*/
+
+// ----- VARIABLE INTIALISATION -----
+
+// boardstate represented as an 3-dimensional array
 const initialBoard = [
-    ['r', 'n', 'b', 'q', 'k', 'b', 'n', 'r'],
+    ['c', 'n', 'b', 'q', 'k', 'b', 'n', 'c'],
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
     ['', '', '', '', '', '', '', ''],
     ['', '', '', '', '', '', '', ''],
     ['', '', '', '', '', '', '', ''],
     ['', '', '', '', '', '', '', ''],
     ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
-    ['R', 'N', 'B', 'Q', 'K', 'B', 'N', 'R']
+    ['C', 'N', 'B', 'Q', 'K', 'B', 'N', 'C']
 ];
 
-export const board = writable(initialBoard);
-export const selectedPiece = writable(null);
-export const turn = writable('white');
+// ----- MAIN EXECUTION CODE -----
+
+export const boardState = writable(initialBoard); // write initial boardState to local storage
+export const selectedPiece = writable(null); // writes initial selectedPiece to local storage with null value
+export const whoseTurn = writable('white'); // writes initial active whoseTurn to local storage with value of "white"
+
+// --- FUA add more code here for other values to be stored in the future --- 
