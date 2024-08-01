@@ -2,7 +2,7 @@
 
 The following is a set of guidelines for contributing to WIGOC, hosted [here](https://github.com/gongahkia/wigoc) on GitHub. 
 
-These are guidelines, not rules. Use your best judgment, and feel free to propose changes to [this document](https://github.com/gongahkia/wigoc/blob/main/CONTRIBUTING.md) in a pull request.
+These are guidelines, not rules. Use your best judgment, and feel free to propose changes to [this document](https://github.com/gongahkia/wigoc/blob/main/admin/CONTRIBUTING.md) in a pull request.
 
 ## Table Of Contents
 
