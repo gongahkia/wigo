@@ -4,6 +4,7 @@
 > 1. Get the base normal chessboard rendering in Svelte with 2 player support
 > 2. Decide cost of each piece
 > 3. Add basic wiki page for WIGOC
+> 4. Add contributor's page and add flowersought to the list on the README, see if there's any way to automate this with a github workflow
 
 # Ideas
 
