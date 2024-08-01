@@ -1,6 +1,6 @@
 # `WIGOC` (a.k.a What Is Going On Chess)
 
-A chess variant.
+A chess variant for those who don't know how to play chess
 
 ## References
 
