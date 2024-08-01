@@ -4,6 +4,8 @@
 > 1. Get the base normal chessboard rendering in Godot with 2 player support
 > 2. Decide cost of each piece
 > 3. Add basic wiki page for WIGOC render the frontend in Vanilla HTML or Svelte as some frontend
+> 4. Finish drawings for all pieces
+> 5. If Godot can invert the color of a PNG, then tweak `./test/piece.py` and remove the differentiation between black and white pieces
 
 # Ideas
 
