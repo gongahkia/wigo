@@ -5,7 +5,7 @@
 > 2. Consider moving development of this to GODOT asap
 > 3. Decide cost of each piece
 > 4. Add basic wiki page for WIGOC
-> 5. Add contributor's page and add flowersought to the list on the README, see if there's any way to automate this with a github workflow
+> 5. Add contributor's page and add flowersought to the list on the README, see if there's any way to automate this with a github workflow from https://github.com/akhilmhdh/contributors-readme-action or HARDCODE it and link to her linkedin
 > 6. Integrate flowersought's art from https://drive.google.com/drive/folders/109mqLzE0Mm4BEIKsW91dH5V4rd75dYNr
 
 # Ideas
