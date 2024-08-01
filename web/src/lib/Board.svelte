@@ -28,8 +28,8 @@
     .board {
         display: grid;
         grid-template-columns: repeat(8, 1fr);
-        width: 600px;
-        height: 600px;
+        width: 400px;
+        height: 400px;
     }
     .row {
         display: contents;

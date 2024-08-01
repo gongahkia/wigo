@@ -18,14 +18,14 @@ import { writable } from 'svelte/store';
 
 // boardstate represented as an 3-dimensional array
 const initialBoard = [
-    ['c', 'n', 'b', 'q', 'k', 'b', 'n', 'c'],
+    ['c', 'n', 'b', 'k', 'k', 'b', 'n', 'c'],
     ['p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'],
     ['', '', '', '', '', '', '', ''],
     ['', '', '', '', '', '', '', ''],
     ['', '', '', '', '', '', '', ''],
     ['', '', '', '', '', '', '', ''],
     ['P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'],
-    ['C', 'N', 'B', 'Q', 'K', 'B', 'N', 'C']
+    ['C', 'N', 'B', 'K', 'K', 'B', 'N', 'C']
 ];
 
 // ----- MAIN EXECUTION CODE -----

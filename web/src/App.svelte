@@ -5,7 +5,8 @@
 </script>
 
 <main>
-    <p>For the <i>chess-inept.</i></p>
+    <h1>What Is Going On (?) Chess</h1>
+    <p>For the <i>CHESS-INEPT.</i></p>
     <Board></Board>
 </main>
 
