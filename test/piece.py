@@ -69,9 +69,9 @@ def validate_piece_files_against_json(black_dir, white_dir, pieces_file):
 # ----- ACTUAL EXECUTION CODE -----
 
 def main():
-    black_dir = os.path.join("..", "web", "src", "asset", "piece", "black")
-    white_dir = os.path.join("..", "web", "src", "asset", "piece", "white")
-    json_file_path = os.path.join("..", "web", "src", "asset", "piece", "piece.json")
+    black_dir = os.path.join("..", "asset", "piece", "black")
+    white_dir = os.path.join("..", "asset", "piece", "white")
+    json_file_path = os.path.join("..", "asset", "piece", "piece.json")
     validate_piece_files_against_json(black_dir, white_dir, json_file_path)
     # validate_piece_files_against_each_other(black_dir, white_dir)
 
