@@ -19,7 +19,14 @@ A chess variant for those who don't know how to play chess.
                     <sub><b>Nichole Bun</b></sub>
                 </a>
             </td>
-		</tr>
+	    <td align="center">
+		<a href="https://github.com/a-stint">
+                    <img src="https://avatars.githubusercontent.com/u/149822619?v=4" width="100;" alt="flowersought"/>
+                    <br />
+                    <sub><b>Astin Tay</b></sub>
+                </a>
+            </td>
+	</tr>
 	<tbody>
 </table>
 
