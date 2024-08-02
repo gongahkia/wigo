@@ -16,4 +16,7 @@ dist-ssr
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+.sw?
+*.godot/
+*.png.import
+*.svg.import
