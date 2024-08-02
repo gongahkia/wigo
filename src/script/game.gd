@@ -3,9 +3,13 @@ extends Node2D
 # ----- REQUIRED IMPORTS -----
 
 @onready var square_scene = preload("res://scene/square.tscn")
+@onready var piece_scene = preload("res://scene/piece.tscn")
 @onready var board_grid = $board/board_grid
+@onready var board = $board 
 
 var board_array := []
+var piece_array := []
+var icon_offset := Vector2(40, 40)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -21,10 +25,12 @@ func _ready():
 			color_bit = 1
 		else:
 			color_bit = 0
+	piece_array.resize(64)
+	piece_array.fill(0 )
 	print("board has been instantiated")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
+func _process(_delta):
 	pass
 
 func create_square():
@@ -32,3 +38,17 @@ func create_square():
 	new_square.square_id = board_array.size()
 	board_grid.add_child(new_square)
 	board_array.push_back(new_square)
+
+func add_piece(piece_type, piece_location) -> void:
+	print("piece being added")
+	var new_piece = piece_scene.instantiate()
+	board.add_child(new_piece)
+	new_piece.type = piece_type
+	new_piece.load_icon(piece_type)
+	new_piece.global_position = board_array[piece_location].global_position + icon_offset
+	piece_array[piece_location] = new_piece
+	new_piece.square_id = piece_location
+
+func _on_debug_button_pressed():
+	print("button being pressed")
+	add_piece(data_handler.piece_names.WHITE_CARP, 4)

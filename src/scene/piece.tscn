@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://b377vnunfn573"]
+
+[ext_resource type="Script" path="res://script/piece.gd" id="1_asoq8"]
+[ext_resource type="Texture2D" uid="uid://brvaa47cnkjdn" path="res://asset/piece/white/white_jurong_west_block_498.png" id="2_vacad"]
+
+[node name="piece" type="Node2D"]
+script = ExtResource("1_asoq8")
+
+[node name="icon" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -795.0
+offset_top = -815.0
+offset_right = 671.0
+offset_bottom = 651.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(0.150205, 0.150205)
+texture = ExtResource("2_vacad")

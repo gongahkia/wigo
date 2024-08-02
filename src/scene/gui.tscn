@@ -22,3 +22,14 @@ offset_bottom = 640.0
 theme_override_constants/h_separation = 0
 theme_override_constants/v_separation = 0
 columns = 8
+
+[node name="debug_button" type="Button" parent="."]
+offset_left = 905.0
+offset_top = 70.0
+offset_right = 962.0
+offset_bottom = 101.0
+scale = Vector2(2.25959, 2.25959)
+text = "debug
+"
+
+[connection signal="pressed" from="debug_button" to="." method="_on_debug_button_pressed"]
