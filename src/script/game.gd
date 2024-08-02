@@ -30,7 +30,7 @@ func _ready():
 	print("board has been instantiated")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(_delta):
+func _process(delta):
 	pass
 
 func create_square():
@@ -52,3 +52,4 @@ func add_piece(piece_type, piece_location) -> void:
 func _on_debug_button_pressed():
 	print("button being pressed")
 	add_piece(data_handler.piece_names.WHITE_CARP, 4)
+	add_piece(data_handler.piece_names.WHITE_WEEPING_ANGEL, 20)
