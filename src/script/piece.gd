@@ -14,3 +14,4 @@ func _process(delta):
 
 func load_icon(piece_name) -> void:
 	icon_path.texture = load(data_handler.assets[piece_name])
+	icon_path.size = Vector2(20, 20)

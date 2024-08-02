@@ -26,7 +26,7 @@ func _ready():
 		else:
 			color_bit = 0
 	piece_array.resize(64)
-	piece_array.fill(0 )
+	piece_array.fill(0)
 	print("board has been instantiated")
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
@@ -40,16 +40,16 @@ func create_square():
 	board_array.push_back(new_square)
 
 func add_piece(piece_type, piece_location) -> void:
-	print("piece being added")
 	var new_piece = piece_scene.instantiate()
 	board.add_child(new_piece)
 	new_piece.type = piece_type
 	new_piece.load_icon(piece_type)
-	new_piece.global_position = board_array[piece_location].global_position + icon_offset
+	new_piece.global_position = board_array[piece_location].global_position - icon_offset
+	var stored = new_piece.global_position
+	print("piece being added at %s" % [stored]) # debug statement
 	piece_array[piece_location] = new_piece
 	new_piece.square_id = piece_location
 
 func _on_debug_button_pressed():
 	print("button being pressed")
-	add_piece(data_handler.piece_names.WHITE_CARP, 4)
-	add_piece(data_handler.piece_names.WHITE_WEEPING_ANGEL, 20)
+	add_piece(data_handler.piece_names.WHITE_CARP, 1) # 0-indexed

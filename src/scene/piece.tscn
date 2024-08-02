@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://b377vnunfn573"]
 
 [ext_resource type="Script" path="res://script/piece.gd" id="1_asoq8"]
-[ext_resource type="Texture2D" uid="uid://c7na6hpyeeckq" path="res://asset/piece/white/white_rook.png" id="2_n0mci"]
+[ext_resource type="Texture2D" uid="uid://cr7r2en5drkiu" path="res://asset/piece/white/white_knight.png" id="2_ry8ax"]
 
 [node name="piece" type="Node2D"]
 script = ExtResource("1_asoq8")
@@ -10,4 +10,4 @@ script = ExtResource("1_asoq8")
 offset_right = 1466.0
 offset_bottom = 1466.0
 scale = Vector2(0.150205, 0.150205)
-texture = ExtResource("2_n0mci")
+texture = ExtResource("2_ry8ax")
