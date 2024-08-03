@@ -1,8 +1,7 @@
-> [!IMPORTANT]  
-> WIGOC *(the game)* is not under active   
-> development. Feel free to fork the repository   
-> and work on it yourself. It was written in   
-> Godot4.   
+> [!WARNING]  
+> WIGOC *(the game)* is not under active development.  
+> Feel free to fork the repository and work on it  
+> yourself. It was written in Godot4.   
 >  
 > Also, the Wikipage under `./site` is completed   
 > and can be run locally.  
@@ -12,7 +11,7 @@
 > 
 > *\- Gabriel* 
 
-![](https://img.shields.io/badge/wigoc_1.0-pre/-alpha-orange)
+![](https://img.shields.io/badge/wigoc_1.0-pre_alpha-orange)
 
 # `WIGOC` (a.k.a What Is Going On Chess)
 
