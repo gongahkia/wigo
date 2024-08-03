@@ -1,3 +1,19 @@
+> [!IMPORTANT]  
+> WIGOC *(the game)* is not under active   
+> development. Feel free to fork the repository   
+> and work on it yourself. It was written in   
+> Godot4.   
+>  
+> Also, the Wikipage under `./site` is completed   
+> and can be run locally.  
+> 
+> This project will continue to be worked   
+> on in the future.  
+> 
+> *\- Gabriel* 
+
+![](https://img.shields.io/badge/wigoc_1.0-pre/-alpha-orange)
+
 # `WIGOC` (a.k.a What Is Going On Chess)
 
 A chess variant for those who don't know how to play chess.  
