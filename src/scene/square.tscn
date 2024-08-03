@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://script/square.gd" id="1_bg45o"]
 
 [node name="square" type="ColorRect"]
-custom_minimum_size = Vector2(80, 80)
+custom_minimum_size = Vector2(120, 120)
 color = Color(0.498039, 1, 0.831373, 1)
 script = ExtResource("1_bg45o")
 

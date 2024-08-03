@@ -1,1 +1,1 @@
-# For storage of Godot code
+# For storing Godot code

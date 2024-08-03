@@ -9,7 +9,7 @@ extends Node2D
 
 var board_array := []
 var piece_array := []
-var icon_offset := Vector2(40, 40)
+var icon_offset := Vector2(60, 60)
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
@@ -52,4 +52,8 @@ func add_piece(piece_type, piece_location) -> void:
 
 func _on_debug_button_pressed():
 	print("button being pressed")
-	add_piece(data_handler.piece_names.WHITE_CARP, 1) # 0-indexed
+	# add_piece(data_handler.piece_names.WHITE_CARP, 0) # 0-indexed
+	add_piece(data_handler.piece_names.WHITE_HAYAO_MIYAZAKI, 0) # 0-indexed
+	add_piece(data_handler.piece_names.WHITE_HAYAO_MIYAZAKI, 1) # 0-indexed
+	add_piece(data_handler.piece_names.WHITE_HAYAO_MIYAZAKI, 2) # 0-indexed
+	add_piece(data_handler.piece_names.WHITE_HAYAO_MIYAZAKI, 63) # 0-indexed
